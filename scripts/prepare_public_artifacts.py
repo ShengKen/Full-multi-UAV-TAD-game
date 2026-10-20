@@ -117,11 +117,13 @@ def inspect_featured_video(root: Path, spec: dict) -> dict:
         raise ValueError(f"Invalid preview identifier: {preview_id!r}")
     run = root / "logs" / "tad_hierarchical" / name
     video = source_video(run, spec["video"])
-    if not video.resolve().is_relative_to(run.resolve()) or video.suffix != ".mp4":
-        raise ValueError(f"Invalid featured video: {video}")
-    with video.open("rb") as stream:
-        if stream.read(100).startswith(b"version https://git-lfs.github.com/spec/"):
-            raise ValueError(f"Git LFS object not downloaded; run git lfs pull: {video}")
+    videos = [video] + [source_video(run, path) for path in spec.get("additional_videos", [])]
+    for recording in videos:
+        if not recording.resolve().is_relative_to(run.resolve()) or recording.suffix != ".mp4":
+            raise ValueError(f"Invalid featured video: {recording}")
+        with recording.open("rb") as stream:
+            if stream.read(100).startswith(b"version https://git-lfs.github.com/spec/"):
+                raise ValueError(f"Git LFS object not downloaded; run git lfs pull: {recording}")
     config = run / "run_config.yaml"
     data = yaml.safe_load(config.read_text())
     scenario = data["scenario"]
@@ -136,7 +138,7 @@ def inspect_featured_video(root: Path, spec: dict) -> dict:
         "elimination_mode": scenario.get("elimination_mode", "unspecified"),
         "video": path,
         "config": str(config.relative_to(root)),
-        "files": [path, str(config.relative_to(root))],
+        "files": sorted({str(recording.relative_to(root)) for recording in videos} | {str(config.relative_to(root))}),
     }
     if "clip_seconds" in spec:
         seconds = float(spec["clip_seconds"])

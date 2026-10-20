@@ -19,7 +19,10 @@
     },
     {
       "name": "2026-10-02_15-21-30_matd3ppo",
-      "video": "play_eval/agent_300000/internal/video/matd3ppo_ep_20261006_125207_episode2.mp4"
+      "video": "play_eval/agent_300000/internal/video/matd3ppo_ep_20261006_125207_episode2.mp4",
+      "additional_videos": [
+        "play_eval/agent_300000/internal/video/matd3ppo_ep_20261006_125207.mp4"
+      ]
     }
   ],
   "runs": [
