@@ -1,0 +1,19 @@
+{
+  "group": "video_internal",
+  "num_envs": 1,
+  "model_sides": [],
+  "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-04_17-01-00_flatppo/26-10-04_17-01-10-243253_FlatPPO/checkpoints/agent_300000.pt",
+  "offset": 1480000,
+  "end": 1483594,
+  "steps": 3594,
+  "episodes": 3,
+  "env0_episodes": 3,
+  "wins": {
+    "A": 0,
+    "D": 0,
+    "T": 3
+  },
+  "stop_reason": "max_episodes",
+  "wandb_active": true,
+  "elapsed_s": 592.3701071739197
+}

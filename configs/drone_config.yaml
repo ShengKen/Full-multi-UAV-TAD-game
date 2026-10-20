@@ -1,0 +1,43 @@
+scale: 1.2
+thrust_to_weight: 2.2
+
+moment_max: 0.0012
+action_mode: rates
+rate_max: 2.0
+rate_kp: 0.0006
+max_roll: 0.7
+max_pitch: 0.7
+
+drag_enable: true
+
+asset:
+  usd_path: null
+  copy_from_source: false
+
+rigid_props:
+  disable_gravity: false
+  max_depenetration_velocity: 10.0
+  enable_gyroscopic_forces: true
+  linear_damping: 0.8
+  angular_damping: 0.8
+
+articulation_props:
+  enabled_self_collisions: false
+  solver_position_iteration_count: 4
+  solver_velocity_iteration_count: 0
+  sleep_threshold: 0.005
+  stabilization_threshold: 0.001
+
+init_state:
+  pos: [0.0, 0.0, 0.5]
+  joint_vel:
+    m1_joint: 200.0
+    m2_joint: -200.0
+    m3_joint: 200.0
+    m4_joint: -200.0
+
+actuators:
+  stiffness: 0.0
+  damping: 0.0
+  effort_limit: null
+  velocity_limit: null

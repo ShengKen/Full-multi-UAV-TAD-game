@@ -1,0 +1,12 @@
+# Copyright (c) 2022-2025, The Isaac Lab Project Developers (https://github.com/isaac-sim/IsaacLab/blob/main/CONTRIBUTORS.md).
+# All rights reserved.
+
+# SPDX-License-Identifier: BSD-3-Clause
+
+
+from isaaclab_tasks.utils import import_packages
+
+
+_BLACKLIST_PKGS = ["utils", ".mdp"]
+
+import_packages(__name__, _BLACKLIST_PKGS)

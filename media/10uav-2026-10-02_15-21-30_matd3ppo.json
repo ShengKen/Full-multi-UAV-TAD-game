@@ -1,0 +1,9 @@
+{
+  "source": "logs/tad_hierarchical/2026-10-02_15-21-30_matd3ppo/play_eval/agent_300000/internal/video/matd3ppo_ep_20261006_125207_episode2.mp4",
+  "source_sha256": "2caee1c0153163152e89501934e67849e7c33bc63d5e87041a7dac1535b19cbd",
+  "start_seconds": 0,
+  "maximum_duration_seconds": 12,
+  "playback_speed": 1,
+  "clip_encoding": "h264, yuv420p, 960px, CRF 25, no audio",
+  "preview_encoding": "first 6 seconds, 640px, 8fps, 96-color GIF"
+}

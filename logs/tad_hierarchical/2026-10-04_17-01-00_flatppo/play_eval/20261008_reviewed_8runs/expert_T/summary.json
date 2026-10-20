@@ -1,0 +1,21 @@
+{
+  "group": "expert_T",
+  "num_envs": 64,
+  "model_sides": [
+    "T"
+  ],
+  "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-04_17-01-00_flatppo/26-10-04_17-01-10-243253_FlatPPO/checkpoints/agent_300000.pt",
+  "offset": 1120000,
+  "end": 1131022,
+  "steps": 11022,
+  "episodes": 1000,
+  "env0_episodes": 15,
+  "wins": {
+    "A": 754,
+    "D": 146,
+    "T": 100
+  },
+  "stop_reason": "eval_episodes",
+  "wandb_active": true,
+  "elapsed_s": 1048.8701033592224
+}

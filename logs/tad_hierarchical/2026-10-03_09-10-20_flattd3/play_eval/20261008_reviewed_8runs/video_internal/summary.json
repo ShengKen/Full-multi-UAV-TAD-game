@@ -1,0 +1,19 @@
+{
+  "group": "video_internal",
+  "num_envs": 1,
+  "model_sides": [],
+  "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_09-10-20_flattd3/26-10-03_09-10-30-158529_FlatTD3/checkpoints/agent_300000.pt",
+  "offset": 1480000,
+  "end": 1483595,
+  "steps": 3595,
+  "episodes": 3,
+  "env0_episodes": 3,
+  "wins": {
+    "A": 0,
+    "D": 0,
+    "T": 3
+  },
+  "stop_reason": "max_episodes",
+  "wandb_active": true,
+  "elapsed_s": 653.0273931026459
+}

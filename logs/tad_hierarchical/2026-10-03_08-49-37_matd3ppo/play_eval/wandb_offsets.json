@@ -1,0 +1,237 @@
+[
+  {
+    "checkpoint": "logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/26-10-03_08-49-46-309686_MATD3PPO/checkpoints/agent_300000.pt",
+    "config": "logs/play_review_20261008/smoke.yaml",
+    "model_sides": [
+      "A"
+    ],
+    "num_envs": 4,
+    "group": "play",
+    "id": "c01292a2c16a47b99d7446fdd53e6454",
+    "offset": 0,
+    "reserved_end": 200,
+    "end": 50,
+    "status": "finished",
+    "created_at": "2026-10-08T07:43:43.957425+00:00",
+    "pid": 781359,
+    "steps": 50,
+    "summary": {
+      "group": "play",
+      "num_envs": 4,
+      "model_sides": [
+        "A"
+      ],
+      "checkpoint": "logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/26-10-03_08-49-46-309686_MATD3PPO/checkpoints/agent_300000.pt",
+      "offset": 0,
+      "end": 50,
+      "steps": 50,
+      "episodes": 8,
+      "env0_episodes": 2,
+      "wins": {
+        "A": 0,
+        "D": 0,
+        "T": 8
+      },
+      "stop_reason": "max_episodes",
+      "wandb_active": false,
+      "elapsed_s": 6.170348167419434
+    }
+  },
+  {
+    "batch": "20261008_reviewed_8runs",
+    "group": "internal",
+    "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/26-10-03_08-49-46-309686_MATD3PPO/checkpoints/agent_300000.pt",
+    "num_envs": 64,
+    "model_sides": [],
+    "historical_max_play_step": 144276,
+    "directory": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/play_eval/20261008_reviewed_8runs/internal",
+    "id": "0aef57efa1204085b022b5d2b69ea7f5",
+    "offset": 1000000,
+    "reserved_end": 1100000,
+    "end": 1008779,
+    "status": "completed",
+    "created_at": "2026-10-08T07:46:32.293868+00:00",
+    "pid": 968624,
+    "steps": 8779,
+    "summary": {
+      "group": "internal",
+      "num_envs": 64,
+      "model_sides": [],
+      "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/26-10-03_08-49-46-309686_MATD3PPO/checkpoints/agent_300000.pt",
+      "offset": 1000000,
+      "end": 1008779,
+      "steps": 8779,
+      "episodes": 1000,
+      "env0_episodes": 13,
+      "wins": {
+        "A": 158,
+        "D": 823,
+        "T": 19
+      },
+      "stop_reason": "eval_episodes",
+      "wandb_active": true,
+      "elapsed_s": 1894.6918513774872
+    },
+    "exit_code": 0
+  },
+  {
+    "batch": "20261008_reviewed_8runs",
+    "group": "expert_T",
+    "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/26-10-03_08-49-46-309686_MATD3PPO/checkpoints/agent_300000.pt",
+    "num_envs": 64,
+    "model_sides": [
+      "T"
+    ],
+    "historical_max_play_step": 144276,
+    "directory": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/play_eval/20261008_reviewed_8runs/expert_T",
+    "id": "63f4c812dff243a3af9b701018de4220",
+    "offset": 1120000,
+    "reserved_end": 1220000,
+    "end": 1132291,
+    "status": "completed",
+    "created_at": "2026-10-08T07:46:32.307654+00:00",
+    "pid": 940262,
+    "steps": 12291,
+    "summary": {
+      "group": "expert_T",
+      "num_envs": 64,
+      "model_sides": [
+        "T"
+      ],
+      "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/26-10-03_08-49-46-309686_MATD3PPO/checkpoints/agent_300000.pt",
+      "offset": 1120000,
+      "end": 1132291,
+      "steps": 12291,
+      "episodes": 1000,
+      "env0_episodes": 17,
+      "wins": {
+        "A": 482,
+        "D": 263,
+        "T": 255
+      },
+      "stop_reason": "eval_episodes",
+      "wandb_active": true,
+      "elapsed_s": 2640.08655500412
+    },
+    "exit_code": 0
+  },
+  {
+    "batch": "20261008_reviewed_8runs",
+    "group": "expert_A",
+    "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/26-10-03_08-49-46-309686_MATD3PPO/checkpoints/agent_300000.pt",
+    "num_envs": 64,
+    "model_sides": [
+      "A"
+    ],
+    "historical_max_play_step": 144276,
+    "directory": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/play_eval/20261008_reviewed_8runs/expert_A",
+    "id": "b43a5e2eaa444c4b970d69986234c623",
+    "offset": 1240000,
+    "reserved_end": 1340000,
+    "end": 1252867,
+    "status": "completed",
+    "created_at": "2026-10-08T07:46:32.324361+00:00",
+    "pid": 889931,
+    "steps": 12867,
+    "summary": {
+      "group": "expert_A",
+      "num_envs": 64,
+      "model_sides": [
+        "A"
+      ],
+      "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/26-10-03_08-49-46-309686_MATD3PPO/checkpoints/agent_300000.pt",
+      "offset": 1240000,
+      "end": 1252867,
+      "steps": 12867,
+      "episodes": 1000,
+      "env0_episodes": 14,
+      "wins": {
+        "A": 254,
+        "D": 618,
+        "T": 128
+      },
+      "stop_reason": "eval_episodes",
+      "wandb_active": true,
+      "elapsed_s": 2745.5693624019623
+    },
+    "exit_code": 0
+  },
+  {
+    "batch": "20261008_reviewed_8runs",
+    "group": "expert_D",
+    "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/26-10-03_08-49-46-309686_MATD3PPO/checkpoints/agent_300000.pt",
+    "num_envs": 64,
+    "model_sides": [
+      "D"
+    ],
+    "historical_max_play_step": 144276,
+    "directory": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/play_eval/20261008_reviewed_8runs/expert_D",
+    "id": "2444c963ec784b089614cd3458849581",
+    "offset": 1360000,
+    "reserved_end": 1460000,
+    "end": 1369211,
+    "status": "completed",
+    "created_at": "2026-10-08T07:46:32.329398+00:00",
+    "pid": 919230,
+    "steps": 9211,
+    "summary": {
+      "group": "expert_D",
+      "num_envs": 64,
+      "model_sides": [
+        "D"
+      ],
+      "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/26-10-03_08-49-46-309686_MATD3PPO/checkpoints/agent_300000.pt",
+      "offset": 1360000,
+      "end": 1369211,
+      "steps": 9211,
+      "episodes": 1000,
+      "env0_episodes": 14,
+      "wins": {
+        "A": 348,
+        "D": 646,
+        "T": 6
+      },
+      "stop_reason": "eval_episodes",
+      "wandb_active": true,
+      "elapsed_s": 1989.4376466274261
+    },
+    "exit_code": 0
+  },
+  {
+    "batch": "20261008_reviewed_8runs",
+    "group": "video_internal",
+    "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/26-10-03_08-49-46-309686_MATD3PPO/checkpoints/agent_300000.pt",
+    "num_envs": 1,
+    "model_sides": [],
+    "historical_max_play_step": 144276,
+    "directory": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/play_eval/20261008_reviewed_8runs/video_internal",
+    "id": "5f2c9ecd628f4e2db27762d73610e9c1",
+    "offset": 1480000,
+    "reserved_end": 1500000,
+    "end": 1481578,
+    "status": "completed",
+    "created_at": "2026-10-08T07:46:32.334592+00:00",
+    "pid": 790601,
+    "steps": 1578,
+    "summary": {
+      "group": "video_internal",
+      "num_envs": 1,
+      "model_sides": [],
+      "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-03_08-49-37_matd3ppo/26-10-03_08-49-46-309686_MATD3PPO/checkpoints/agent_300000.pt",
+      "offset": 1480000,
+      "end": 1481578,
+      "steps": 1578,
+      "episodes": 3,
+      "env0_episodes": 3,
+      "wins": {
+        "A": 2,
+        "D": 1,
+        "T": 0
+      },
+      "stop_reason": "max_episodes",
+      "wandb_active": true,
+      "elapsed_s": 309.8294551372528
+    },
+    "exit_code": 0
+  }
+]

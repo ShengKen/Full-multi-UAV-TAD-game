@@ -1,0 +1,218 @@
+[INFO][AppLauncher]: Input keyword argument `livestream=0` has overridden the environment variable `LIVESTREAM=0`.
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: /isaac-sim/IsaacLab/apps/isaaclab.python.headless.rendering.kit
+Loading user config located at: '/isaac-sim/kit/data/Kit/Isaac-Sim/5.1/user.config.json'
+[Info] [carb] Logging to file: /isaac-sim/kit/logs/Kit/Isaac-Sim/5.1/kit_20261008_164920.log
+2026-10-08T08:49:20Z [0ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/isaac-sim/kit/data/Kit/Isaac-Sim/5.1/932d1998-f435-4a8b-eb7c919e-949cb0d1.dmp'
+2026-10-08T08:49:20Z [1ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/isaac-sim/kit/data/Kit/Isaac-Sim/5.1/10bb97d0-7c5a-4a08-c8a2c983-5badf9da.dmp'
+2026-10-08T08:49:20Z [2ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/isaac-sim/kit/data/Kit/Isaac-Sim/5.1/d338dae1-5eb5-4c5b-b9d4d5b7-7addb77c.dmp'
+2026-10-08T08:49:20Z [2ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/isaac-sim/kit/data/Kit/Isaac-Sim/5.1/69c421fe-e73a-4813-1d9f2ebb-d4fecd72.dmp'
+2026-10-08T08:49:20Z [2ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/isaac-sim/kit/data/Kit/Isaac-Sim/5.1/78078518-e1b2-410a-fcc05595-6548f2b3.dmp'
+2026-10-08T08:49:21Z [285ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-10-08T08:49:21Z [285ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+2026-10-08T08:49:21Z [297ms] [Warning] [omni.platforminfo.plugin] failed to open the default display.  Can't verify X Server version.
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 580.178.04    | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4090          | Yes: 0 |     | 24564   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2684      | 82950796.. |
+|     |                                  |        |     |            | 1         |            |
+|=============================================================================================|
+| OS: 24.04.2 LTS (Noble Numbat) ubuntu, Version: 24.04.2, Kernel: 7.0.0-34-generic
+| Processor: Intel(R) Core(TM) i9-14900K
+| Bare Metal Cores: 24 | Bare Metal Logical Cores: 48
+| Available Cores:  32 
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 128428 | Free Memory: 112111
+| Total Page/Swap (MB): 8191 | Free Page/Swap: 5548
+|---------------------------------------------------------------------------------------------|
+2026-10-08T08:49:21Z [737ms] [Warning] [gpu.foundation.plugin] CPU performance profile is set to powersave. This profile sets the CPU to the lowest frequency reducing performance.
+2026-10-08T08:49:21Z [745ms] [Warning] [gpu.foundation.plugin] IOMMU is enabled.
+2026-10-08T08:49:21Z [1,229ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-10-08T08:49:21Z [1,229ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+2026-10-08T08:49:21Z [1,242ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-10-08T08:49:21Z [1,242ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+2026-10-08T08:49:21Z [1,247ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-10-08T08:49:21Z [1,247ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+2026-10-08T08:49:21Z [1,252ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-10-08T08:49:21Z [1,252ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+2026-10-08T08:49:21Z [1,253ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-10-08T08:49:21Z [1,253ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+2026-10-08T08:49:21Z [1,254ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-10-08T08:49:21Z [1,254ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+2026-10-08T08:49:22Z [1,384ms] [Warning] [omni.log] Source: omni.hydra was already registered.
+2026-10-08T08:49:22Z [1,599ms] [Warning] [carb] Acquiring non optional plugin interface which is not listed as dependency: [omni::physx::IPhysxBenchmarks v1.0] (plugin: <default plugin>), by client: omni.physics.physx.plugin. Add it to CARB_PLUGIN_IMPL_DEPS() macro of a client.
+2026-10-08T08:49:22Z [1,603ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+2026-10-08T08:49:24Z [3,369ms] [Warning] [pxr.Semantics] pxr.Semantics is deprecated - please use Semantics instead
+2026-10-08T08:49:24Z [3,449ms] [Warning] [omni.graph.core.plugin] Found duplicate of category 'Replicator' - was 'Annotators', adding 'Fabric Reader'
+2026-10-08T08:49:24Z [3,449ms] [Warning] [omni.graph.core.plugin] Category 'Replicator' not accepted on node type 'omni.replicator.core.FabricReader' in extension 'omni.replicator.core'
+2026-10-08T08:49:24Z [3,450ms] [Warning] [omni.replicator.core.scripts.extension] No material configuration file, adding configuration to material settings directly.
+2026-10-08T08:49:25Z [4,375ms] [Warning] [omni.kvdb.plugin] Disabling key-value database because another kit process is locking it
+2026-10-08T08:49:26Z [5,961ms] [Warning] [omni.fabric.plugin] Warning: attribute viewportHandle not found for bucket id 7
+
+[TAD-HIER][play] 使用训练配置：/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-04_17-01-00_flatppo/run_config.yaml
+[TAD][cfg][WARN] exper_rate=[0.3, 0.3, 0.3] 但 train_side/train_takeover 均非 roll → 不生效（仅 roll 模式有「非激活队」概念）
+[TAD][flat] 布局=flat（algo=flatppo）；忽略的 hier 键：observation.include_lock_count / reward.pbrs_on_locked（flat 锁恒为脚本 nearest，与 false 等价） / observation.time_to_go（15 维自机块固定含 t/T） / observation.ang_vel（角速度固定含于自机块）
+[TAD][flat] flat_obs=pool  actor_obs_dim(按队)={'T': 95, 'A': 95, 'D': 95}  agents=15×Box(4)  state=285(token)
+[TAD-HIER][play] 专家课程已关闭（忽略 run_config 的 expert_curriculum_prob=0.1）
+[TAD-HIER][play] frozen 对手接管已关闭（frozen_opponent_prob→0）
+[TAD-HIER][play] 训练期周期评估已关闭（忽略 run_config 的 test_num_envs=128）
+[TAD][flat] flat_obs=pool  actor_obs_dim(按队)={'T': 95, 'A': 95, 'D': 95}  agents=15×Box(4)  state=285(token)
+[TAD-HIER][play] flat 布局（algo=flatppo，flat_obs=pool）
+2026-10-08T08:49:27Z [6,581ms] [Warning] [isaaclab.envs.direct_marl_env] Seed not set for the environment. The environment creation may not be deterministic.
+
+[36m======================================================================================[0m
+[36m[1m[INFO][IsaacLab]: Logging to file: /tmp/isaaclab/logs/isaaclab_2026-10-08_16-49-27.log[0m
+[36m======================================================================================[0m
+
+[INFO]: Base environment:
+	Environment device    : cuda:0
+	Environment seed      : None
+	Physics step-size     : 0.02
+	Rendering step-size   : 0.02
+	Environment step-size : 0.02
+[INFO]: Time taken for scene creation : 2.408043 seconds
+[INFO]: Scene manager:  <class InteractiveScene>
+	Number of environments: 1
+	Environment spacing   : 80.0
+	Source prim name      : /World/envs/env_0
+	Global prim paths     : []
+	Replicate physics     : True
+[INFO]: Starting the simulation. This may take a few seconds. Please wait...
+[INFO]: Time taken for simulation start : 0.992529 seconds
+[INFO]: Completed setting up the environment...
+[TAD][oob] 发放对象=T+A+D dense_mask=True rew_oob=-0.1
+[TAD][课程] expert_curriculum on=False prob=0.10
+[38;20m[skrl:INFO] Environment wrapper: Isaac Lab (multi-agent)[0m
+[TAD][build] FLAT-PPO：teams=['T', 'A', 'D']  actor_hidden=[440, 440, 440]  V(state 285)  rollouts=512  epochs=3  mini_batches=8  γ=0.995  λ=0.95  σ_init=-1.2(log) σ_max=-0.6(log)  entropy=0.0
+[TAD][build] FLAT flatppo：agents=['T_0', 'T_1', 'T_2', 'T_3', 'T_4', 'A_0', 'A_1', 'A_2', 'A_3', 'A_4', 'D_0', 'D_1', 'D_2', 'D_3', 'D_4']  flat_obs=pool  state=285(token)  norm=off  aggr=mean
+[TAD-HIER][play] 加载 checkpoint(legacy): /workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-04_17-01-00_flatppo/26-10-04_17-01-10-243253_FlatPPO/checkpoints/agent_300000.pt（algo=flatppo）
+[TAD-HIER][play] legacy ckpt 已加载（actor-only，critic 跳过；play 不需要 critic）
+[TAD-HIER-play] wandb resume 训练 run id=2026-10-04_17-01-00_flatppo
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from /isaac-sim/.netrc.
+wandb: Currently logged in as: 1026066086 (1026066086-zqc) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: setting up run 2026-10-04_17-01-00_flatppo
+wandb: Tracking run with wandb version 0.27.2
+wandb: Run data is saved locally in /workspace/Isaac_Project/MTAD/logs/wandb/run-20261008_164934-2026-10-04_17-01-00_flatppo
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Resuming run 2026-10-04_17-01-00_flatppo
+wandb: ⭐️ View project at https://wandb.ai/1026066086-zqc/MTAD-Hierarchical
+wandb: 🚀 View run at https://wandb.ai/1026066086-zqc/MTAD-Hierarchical/runs/2026-10-04_17-01-00_flatppo
+[TAD-HIER][play] wandb step offset=1480000
+[TAD-HIER][play] 开始推理；前 3 局录像 → /workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-04_17-01-00_flatppo/play_eval/20261008_reviewed_8runs/video_internal/flatppo_episode_20261008_164927.mp4 @ 25fps
+[TAD-HIER][play] agents=['T_0', 'T_1', 'T_2', 'T_3', 'T_4', 'A_0', 'A_1', 'A_2', 'A_3', 'A_4', 'D_0', 'D_1', 'D_2', 'D_3', 'D_4']  decision_period=50 controls
+[ep0 t=  0.0s] *T_0[pool=2]→A_2(d=12.0)  *T_1[pool=2]→A_2(d=5.0)  *T_2[pool=2]→A_2(d=18.4)  *T_3[pool=2]→A_2(d=8.6)  *T_4[pool=2]→A_2(d=9.9)  *A_0[pool=1]→T_1(d=8.4)  *A_1[pool=1]→T_1(d=10.0)  *A_2[pool=1]→T_1(d=5.0)  *A_3[pool=1]→T_1(d=10.1)  *A_4[pool=1]→T_1(d=7.7)  *D_0[pool=2]→A_2(d=11.2)  *D_1[pool=0]→A_0(d=15.7)  *D_2[pool=2]→A_2(d=10.2)  *D_3[pool=2]→A_2(d=11.8)  *D_4[pool=2]→A_2(d=14.2)   (*=至少一层学习  †=阵亡)
+2026-10-08T08:49:39Z [19,135ms] [Warning] [omni.syntheticdata.plugin] OgnSdPostRenderVarToHost : rendervar copy from texture directly to host buffer is counter-performant. Please use copy from texture to device buffer first.
+[ep0 t=  1.3s] *T_0[pool=2]→A_2(d=15.6)  *T_1[pool=2]→A_2(d=7.8)  *T_2[pool=2]→A_2(d=21.6)  *T_3[pool=2]→A_2(d=11.0)  *T_4[pool=2]→A_2(d=12.7)  *A_0[pool=1]→T_1(d=11.5)  *A_1[pool=1]→T_1(d=12.9)  *A_2[pool=1]→T_1(d=7.8)  *A_3[pool=1]→T_1(d=13.4)  *A_4[pool=1]→T_1(d=8.8)  *D_0[pool=2]→A_2(d=11.5)  *D_1[pool=2]→A_2(d=13.7)  *D_2[pool=2]→A_2(d=16.6)  *D_3[pool=2]→A_2(d=11.6)  *D_4[pool=2]→A_2(d=15.6)   (*=至少一层学习  †=阵亡)
+[ep0 t=  2.6s] *T_0[pool=4]→A_4(d=17.2)  *T_1[pool=4]→A_4(d=10.5)  *T_2[pool=4]→A_4(d=23.5)  *T_3[pool=2]→A_2(d=12.7)  *T_4[pool=2]→A_2(d=13.9)  *A_0[pool=1]→T_1(d=18.8)  *A_1[pool=1]→T_1(d=19.0)  *A_2[pool=1]→T_1(d=15.4)  *A_3[pool=1]→T_1(d=20.9)  *A_4[pool=1]→T_1(d=10.5)  *D_0[pool=4]→A_4(d=11.2)  *D_1[pool=2]→A_2(d=13.3)  *D_2[pool=4]→A_4(d=23.2)  *D_3[pool=2]→A_2(d=14.2)  *D_4[pool=2]→A_2(d=19.2)   (*=至少一层学习  †=阵亡)
+[ep0 t=  3.9s] *T_0[pool=4]→A_4(d=14.4)  *T_1[pool=4]→A_4(d=14.6)  *T_2[pool=4]→A_4(d=22.8)  *T_3[pool=4]→A_4(d=9.6)  *T_4[pool=4]→A_4(d=9.9)  *A_0[pool=3]→T_3(d=20.5)  *A_1[pool=1]→T_1(d=26.4)  *A_2[pool=3]→T_3(d=16.6)  *A_3[pool=3]→T_3(d=23.2)  *A_4[pool=3]→T_3(d=9.6)  *D_0[pool=4]→A_4(d=7.5)  *D_1[pool=4]→A_4(d=4.9)  *D_2[pool=4]→A_4(d=21.8)  *D_3[pool=4]→A_4(d=7.4)  *D_4[pool=4]→A_4(d=9.6)   (*=至少一层学习  †=阵亡)
+2026-10-08T08:50:10Z [49,544ms] [Warning] [carb] Client gpu.foundation.plugin has acquired [gpu::unstable::IMemoryBudgetManagerFactory v0.1] 100 times. Consider accessing this interface with carb::getCachedInterface() (Performance warning)
+[ep0 t=  5.2s] *T_0[pool=4]→A_4(d=13.5)  *T_1[pool=4]→A_4(d=17.8)  *T_2[pool=4]→A_4(d=16.4)  *T_3[pool=4]→A_4(d=8.4)  *T_4[pool=4]→A_4(d=8.3)  *A_0[pool=3]→T_3(d=18.8)  *A_1[pool=3]→T_3(d=24.8)  *A_2[pool=3]→T_3(d=16.8)  *A_3[pool=3]→T_3(d=20.4)  *A_4[pool=3]→T_3(d=8.4)  *D_0[pool=4]→A_4(d=6.0)  *D_1[pool=4]→A_4(d=7.0)  *D_2[pool=4]→A_4(d=15.0)  *D_3[pool=4]→A_4(d=6.9)  *D_4[pool=4]→A_4(d=5.4)   (*=至少一层学习  †=阵亡)
+[ep0 t=  6.5s] *T_0[pool=4]→A_4(d=11.6)  *T_1[pool=4]→A_4(d=15.5)  *T_2[pool=4]→A_4(d=11.4)  *T_3[pool=4]→A_4(d=11.2)  *T_4[pool=4]→A_4(d=8.3)  *A_0[pool=3]→T_3(d=18.6)  *A_1[pool=3]→T_3(d=23.1)  *A_2[pool=4]→T_4(d=16.3)  *A_3[pool=3]→T_3(d=19.0)  *A_4[pool=4]→T_4(d=8.3)  *D_0[pool=4]→A_4(d=5.9)  *D_1[pool=2]→A_2(d=8.3)  *D_2[pool=4]→A_4(d=6.8)  *D_3[pool=4]→A_4(d=8.4)  *D_4[pool=4]→A_4(d=5.2)   (*=至少一层学习  †=阵亡)
+[ep0 t=  7.9s] *T_0[pool=4]→A_4(d=4.6)  *T_1[pool=4]→A_4(d=10.6)  *T_2[pool=4]→A_4(d=5.2)  *T_3[pool=4]→A_4(d=10.2)  *T_4[pool=4]→A_4(d=9.1)  *A_0[pool=4]→T_4(d=11.4)  *A_1[pool=3]→T_3(d=18.8)  *A_2[pool=4]→T_4(d=10.6)  *A_3[pool=4]→T_4(d=13.7)  *A_4[pool=4]→T_4(d=9.1)  *D_0[pool=4]→A_4(d=7.4)  *D_1[pool=2]→A_2(d=12.2)  *D_2[pool=4]→A_4(d=5.7)  *D_3[pool=4]→A_4(d=11.2)  *D_4[pool=4]→A_4(d=7.8)   (*=至少一层学习  †=阵亡)
+[ep0 t=  9.2s] *T_0[pool=4]→A_4(d=4.5)  *T_1[pool=4]→A_4(d=6.1)  *T_2[pool=4]→A_4(d=8.6)  *T_3[pool=4]→A_4(d=10.3)  *T_4[pool=2]→A_2(d=10.5)  *A_0[pool=4]→T_4(d=11.6)  *A_1[pool=3]→T_3(d=16.6)  *A_2[pool=4]→T_4(d=10.5)  *A_3[pool=4]→T_4(d=13.3)  *A_4[pool=0]→T_0(d=4.5)  *D_0[pool=4]→A_4(d=9.9)  *D_1[pool=0]→A_0(d=16.7)  *D_2[pool=4]→A_4(d=11.2)  *D_3[pool=4]→A_4(d=14.7)  *D_4[pool=4]→A_4(d=11.3)   (*=至少一层学习  †=阵亡)
+[ep0 t= 10.2s] *T_0[pool=4]→A_4(d=6.0)  *T_1[pool=4]→A_4(d=1.6)  *T_2[pool=4]→A_4(d=15.6)  *T_3[pool=4]→A_4(d=5.5)  *T_4[pool=4]→A_4(d=8.9)  *A_0[pool=4]→T_4(d=11.3)  *A_1[pool=4]→T_4(d=17.2)  *A_2[pool=4]→T_4(d=10.0)  *A_3[pool=4]→T_4(d=14.2)  *A_4[pool=1]→T_1(d=1.6)  *D_0[pool=4]→A_4(d=12.8)  *D_1[pool=1]→A_1(d=13.2)  *D_2[pool=4]→A_4(d=15.6)  *D_3[pool=4]→A_4(d=18.1)  *D_4[pool=4]→A_4(d=14.5)   (*=至少一层学习  †=阵亡)
+[ep0 t= 11.5s] *T_0[pool=4]→A_4(d=9.6)  *T_1[pool=4]→A_4(d=5.0)  *T_2[pool=2]→A_2(d=13.1)  *T_3[pool=4]→A_4(d=5.6)  *T_4[pool=2]→A_2(d=8.8)  *A_0[pool=4]→T_4(d=9.0)  *A_1[pool=4]→T_4(d=16.4)  *A_2[pool=4]→T_4(d=8.8)  *A_3[pool=4]→T_4(d=12.5)  *A_4[pool=1]→T_1(d=5.0)  *D_0[pool=4]→A_4(d=15.5)  *D_1[pool=1]→A_1(d=14.5)  *D_2[pool=4]→A_4(d=18.9)  *D_3[pool=4]→A_4(d=20.9)  *D_4[pool=4]→A_4(d=16.9)   (*=至少一层学习  †=阵亡)
+[ep0 t= 12.8s] *T_0[pool=4]→A_4(d=12.0)  *T_1[pool=4]→A_4(d=8.0)  *T_2[pool=2]→A_2(d=14.3)  *T_3[pool=4]→A_4(d=4.0)  *T_4[pool=0]→A_0(d=9.1)  *A_0[pool=4]→T_4(d=9.1)  *A_1[pool=4]→T_4(d=13.8)  *A_2[pool=4]→T_4(d=10.7)  *A_3[pool=4]→T_4(d=11.1)  *A_4[pool=1]→T_1(d=8.0)  *D_0[pool=4]→A_4(d=16.5)  *D_1[pool=3]→A_3(d=15.5)  *D_2[pool=4]→A_4(d=19.1)  *D_3[pool=4]→A_4(d=22.9)  *D_4[pool=4]→A_4(d=18.6)   (*=至少一层学习  †=阵亡)
+[ep0 t= 14.1s] *T_0[pool=2]→A_2(d=12.5)  *T_1[pool=4]→A_4(d=13.4)  *T_2[pool=2]→A_2(d=15.5)  *T_3[pool=4]→A_4(d=7.9)  *T_4[pool=4]→A_4(d=6.0)  *A_0[pool=4]→T_4(d=11.5)  *A_1[pool=4]→T_4(d=15.8)  *A_2[pool=3]→T_3(d=11.2)  *A_3[pool=4]→T_4(d=13.6)  *A_4[pool=4]→T_4(d=6.0)  *D_0[pool=4]→A_4(d=17.0)  *D_1[pool=4]→A_4(d=14.8)  *D_2[pool=4]→A_4(d=19.4)  *D_3[pool=3]→A_3(d=24.8)  *D_4[pool=4]→A_4(d=20.7)   (*=至少一层学习  †=阵亡)
+[ep0 t= 15.4s] *T_0[pool=4]→A_4(d=8.6)  *T_1[pool=4]→A_4(d=12.9)  *T_2[pool=2]→A_2(d=13.3)  *T_3[pool=4]→A_4(d=9.2)  *T_4[pool=4]→A_4(d=8.1)  *A_0[pool=4]→T_4(d=10.1)  *A_1[pool=4]→T_4(d=15.7)  *A_2[pool=0]→T_0(d=10.3)  *A_3[pool=4]→T_4(d=12.7)  *A_4[pool=4]→T_4(d=8.1)  *D_0[pool=4]→A_4(d=21.2)  *D_1[pool=1]→A_1(d=16.4)  *D_2[pool=4]→A_4(d=21.4)  *D_3[pool=3]→A_3(d=26.8)  *D_4[pool=4]→A_4(d=22.7)   (*=至少一层学习  †=阵亡)
+[ep0 t= 16.7s] *T_0[pool=4]→A_4(d=10.5)  *T_1[pool=4]→A_4(d=19.1)  *T_2[pool=4]→A_4(d=8.9)  *T_3[pool=4]→A_4(d=12.3)  *T_4[pool=0]→A_0(d=9.4)  *A_0[pool=4]→T_4(d=9.4)  *A_1[pool=4]→T_4(d=12.9)  *A_2[pool=4]→T_4(d=11.5)  *A_3[pool=4]→T_4(d=10.6)  *A_4[pool=0]→T_0(d=10.5)  *D_0[pool=4]→A_4(d=29.5)  *D_1[pool=1]→A_1(d=16.0)  *D_2[pool=4]→A_4(d=24.9)  *D_3[pool=0]→A_0(d=29.2)  *D_4[pool=4]→A_4(d=27.0)   (*=至少一层学习  †=阵亡)
+[ep0 t= 17.9s] *T_0[pool=4]→A_4(d=13.5)  *T_1[pool=2]→A_2(d=18.5)  *T_2[pool=4]→A_4(d=7.8)  *T_3[pool=2]→A_2(d=12.0)  *T_4[pool=0]→A_0(d=12.3)  *A_0[pool=4]→T_4(d=12.3)  *A_1[pool=4]→T_4(d=14.5)  *A_2[pool=3]→T_3(d=12.0)  *A_3[pool=4]→T_4(d=13.3)  *A_4[pool=2]→T_2(d=7.8)  *D_0[pool=1]→A_1(d=27.9)  *D_1[pool=3]→A_3(d=16.6)  *D_2[pool=4]→A_4(d=27.9)  *D_3[pool=0]→A_0(d=32.3)  *D_4[pool=2]→A_2(d=29.7)   (*=至少一层学习  †=阵亡)
+[ep0 t= 19.2s] *T_0[pool=2]→A_2(d=12.0)  *T_1[pool=2]→A_2(d=16.6)  *T_2[pool=4]→A_4(d=7.1)  *T_3[pool=2]→A_2(d=11.6)  *T_4[pool=0]→A_0(d=11.9)  *A_0[pool=4]→T_4(d=11.9)  *A_1[pool=4]→T_4(d=16.2)  *A_2[pool=0]→T_0(d=12.0)  *A_3[pool=4]→T_4(d=14.1)  *A_4[pool=2]→T_2(d=7.1)  *D_0[pool=1]→A_1(d=27.1)  *D_1[pool=0]→A_0(d=18.4)  *D_2[pool=4]→A_4(d=29.0)  *D_3[pool=1]→A_1(d=33.7)  *D_4[pool=3]→A_3(d=29.9)   (*=至少一层学习  †=阵亡)
+[ep0 t= 20.3s] *T_0[pool=2]→A_2(d=10.9)  *T_1[pool=2]→A_2(d=16.9)  *T_2[pool=4]→A_4(d=9.5)  *T_3[pool=2]→A_2(d=11.5)  *T_4[pool=0]→A_0(d=10.3)  *A_0[pool=4]→T_4(d=10.3)  *A_1[pool=4]→T_4(d=14.6)  *A_2[pool=3]→T_3(d=11.5)  *A_3[pool=4]→T_4(d=12.2)  *A_4[pool=2]→T_2(d=9.5)  *D_0[pool=1]→A_1(d=25.4)  *D_1[pool=3]→A_3(d=19.7)  *D_2[pool=4]→A_4(d=28.5)  *D_3[pool=1]→A_1(d=34.7)  *D_4[pool=3]→A_3(d=31.0)   (*=至少一层学习  †=阵亡)
+[ep0 t= 21.5s] *T_0[pool=2]→A_2(d=12.8)  *T_1[pool=4]→A_4(d=15.8)  *T_2[pool=4]→A_4(d=11.4)  *T_3[pool=2]→A_2(d=13.3)  *T_4[pool=0]→A_0(d=11.9)  *A_0[pool=4]→T_4(d=11.9)  *A_1[pool=4]→T_4(d=13.5)  *A_2[pool=0]→T_0(d=12.8)  *A_3[pool=4]→T_4(d=12.6)  *A_4[pool=2]→T_2(d=11.4)  *D_0[pool=1]→A_1(d=25.3)  *D_1[pool=1]→A_1(d=17.9)  *D_2[pool=4]→A_4(d=28.2)  *D_3[pool=3]→A_3(d=36.3)  *D_4[pool=0]→A_0(d=32.7)   (*=至少一层学习  †=阵亡)
+[ep0 t= 23.1s] *T_0[pool=2]→A_2(d=11.6)  *T_1[pool=4]→A_4(d=15.0)  *T_2[pool=2]→A_2(d=15.5)  *T_3[pool=2]→A_2(d=12.9)  *T_4[pool=0]→A_0(d=13.5)  *A_0[pool=4]→T_4(d=13.5)  *A_1[pool=4]→T_4(d=17.0)  *A_2[pool=0]→T_0(d=11.6)  *A_3[pool=4]→T_4(d=15.5)  *A_4[pool=1]→T_1(d=15.0)  *D_0[pool=1]→A_1(d=29.0)  *D_1[pool=3]→A_3(d=18.5)  *D_2[pool=4]→A_4(d=28.6)  *D_3[pool=0]→A_0(d=38.8)  *D_4[pool=2]→A_2(d=35.7)   (*=至少一层学习  †=阵亡)
+Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+[TAD-HIER-play] ✔ MP4 已保存：/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-04_17-01-00_flatppo/play_eval/20261008_reviewed_8runs/video_internal/flatppo_episode_20261008_164927.mp4（583 帧, 25 fps, 1920x1080）
+[TAD-HIER][play] 回合 0：23.4s | 超时无胜负 | 累计 A胜=0/1 D胜=0/1 | reward T=-418.55 A=-1441.79 D=-8134.92
+[ep1 t=  0.0s] *T_0[pool=0]→A_0(d=12.0)  *T_1[pool=3]→A_3(d=15.0)  *T_2[pool=0]→A_0(d=4.5)  *T_3[pool=3]→A_3(d=6.5)  *T_4[pool=1]→A_1(d=10.2)  *A_0[pool=2]→T_2(d=4.5)  *A_1[pool=2]→T_2(d=4.9)  *A_2[pool=2]→T_2(d=8.5)  *A_3[pool=2]→T_2(d=5.7)  *A_4[pool=2]→T_2(d=9.2)  *D_0[pool=0]→A_0(d=3.7)  *D_1[pool=4]→A_4(d=16.4)  *D_2[pool=4]→A_4(d=14.8)  *D_3[pool=1]→A_1(d=8.6)  *D_4[pool=1]→A_1(d=12.0)   (*=至少一层学习  †=阵亡)
+[ep1 t=  1.7s] *T_0[pool=0]→A_0(d=14.5)  *T_1[pool=1]→A_1(d=18.8)  *T_2[pool=0]→A_0(d=7.2)  *T_3[pool=1]→A_1(d=11.7)  *T_4[pool=1]→A_1(d=14.7)  *A_0[pool=2]→T_2(d=7.2)  *A_1[pool=2]→T_2(d=8.4)  *A_2[pool=2]→T_2(d=13.8)  *A_3[pool=2]→T_2(d=5.1)  *A_4[pool=2]→T_2(d=10.0)  *D_0[pool=0]→A_0(d=12.5)  *D_1[pool=0]→A_0(d=14.5)  *D_2[pool=0]→A_0(d=15.1)  *D_3[pool=1]→A_1(d=15.9)  *D_4[pool=1]→A_1(d=20.7)   (*=至少一层学习  †=阵亡)
+[ep1 t=  3.0s] *T_0[pool=3]→A_3(d=8.3)  *T_1[pool=3]→A_3(d=18.6)  *T_2[pool=3]→A_3(d=5.3)  *T_3[pool=3]→A_3(d=11.8)  *T_4[pool=3]→A_3(d=10.2)  *A_0[pool=2]→T_2(d=13.8)  *A_1[pool=2]→T_2(d=11.1)  *A_2[pool=2]→T_2(d=19.1)  *A_3[pool=2]→T_2(d=5.3)  *A_4[pool=2]→T_2(d=7.4)  *D_0[pool=4]→A_4(d=14.8)  *D_1[pool=3]→A_3(d=2.5)  *D_2[pool=3]→A_3(d=4.2)  *D_3[pool=3]→A_3(d=13.5)  *D_4[pool=3]→A_3(d=16.5)   (*=至少一层学习  †=阵亡)
+[ep1 t=  4.2s] *T_0[pool=3]→A_3(d=5.2)  *T_1[pool=3]→A_3(d=15.0)  *T_2[pool=4]→A_4(d=6.1)  *T_3[pool=4]→A_4(d=11.5)  *T_4[pool=3]→A_3(d=7.5)  *A_0[pool=2]→T_2(d=17.5)  *A_1[pool=2]→T_2(d=13.4)  *A_2[pool=2]→T_2(d=21.7)  *A_3[pool=0]→T_0(d=5.2)  *A_4[pool=2]→T_2(d=6.1)  *D_0[pool=4]→A_4(d=12.7)  *D_1[pool=3]→A_3(d=10.6)  *D_2[pool=3]→A_3(d=9.8)  *D_3[pool=4]→A_4(d=11.0)  *D_4[pool=3]→A_3(d=11.7)   (*=至少一层学习  †=阵亡)
+[ep1 t=  5.5s] *T_0[pool=3]→A_3(d=7.1)  *T_1[pool=3]→A_3(d=10.0)  *T_2[pool=4]→A_4(d=5.1)  *T_3[pool=4]→A_4(d=9.3)  *T_4[pool=3]→A_3(d=6.8)  *A_0[pool=0]→T_0(d=18.5)  *A_1[pool=2]→T_2(d=13.8)  *A_2[pool=2]→T_2(d=21.0)  *A_3[pool=0]→T_0(d=7.1)  *A_4[pool=2]→T_2(d=5.1)  *D_0[pool=4]→A_4(d=12.3)  *D_1[pool=0]→A_0(d=6.1)  *D_2[pool=1]→A_1(d=5.6)  *D_3[pool=4]→A_4(d=9.6)  *D_4[pool=3]→A_3(d=7.7)   (*=至少一层学习  †=阵亡)
+[ep1 t=  6.9s] *T_0[pool=3]→A_3(d=9.5)  *T_1[pool=3]→A_3(d=5.2)  *T_2[pool=4]→A_4(d=5.9)  *T_3[pool=4]→A_4(d=11.3)  *T_4[pool=3]→A_3(d=3.6)  *A_0[pool=0]→T_0(d=12.9)  *A_1[pool=2]→T_2(d=13.5)  *A_2[pool=2]→T_2(d=20.2)  *A_3[pool=4]→T_4(d=3.6)  *A_4[pool=2]→T_2(d=5.9)  *D_0[pool=4]→A_4(d=15.2)  *D_1[pool=0]→A_0(d=6.1)  *D_2[pool=1]→A_1(d=7.7)  *D_3[pool=3]→A_3(d=10.7)  *D_4[pool=3]→A_3(d=11.5)   (*=至少一层学习  †=阵亡)
+[ep1 t=  8.2s] *T_0[pool=0]→A_0(d=8.0)  *T_1[pool=3]→A_3(d=10.3)  *T_2[pool=4]→A_4(d=6.0)  *T_3[pool=3]→A_3(d=2.2)  *T_4[pool=3]→A_3(d=8.0)  *A_0[pool=0]→T_0(d=8.0)  *A_1[pool=0]→T_0(d=11.5)  *A_2[pool=2]→T_2(d=17.3)  *A_3[pool=3]→T_3(d=2.2)  *A_4[pool=2]→T_2(d=6.0)  *D_0[pool=3]→A_3(d=12.9)  *D_1[pool=1]→A_1(d=9.5)  *D_2[pool=0]→A_0(d=8.3)  *D_3[pool=3]→A_3(d=12.7)  *D_4[pool=0]→A_0(d=15.5)   (*=至少一层学习  †=阵亡)
+[ep1 t=  9.5s] *T_0[pool=0]→A_0(d=10.5)  *T_1[pool=3]→A_3(d=16.7)  *T_2[pool=4]→A_4(d=6.0)  *T_3[pool=3]→A_3(d=6.6)  *T_4[pool=3]→A_3(d=10.4)  *A_0[pool=0]→T_0(d=10.5)  *A_1[pool=0]→T_0(d=10.2)  *A_2[pool=2]→T_2(d=17.9)  *A_3[pool=3]→T_3(d=6.6)  *A_4[pool=2]→T_2(d=6.0)  *D_0[pool=3]→A_3(d=17.3)  *D_1[pool=4]→A_4(d=10.8)  *D_2[pool=1]→A_1(d=11.9)  *D_3[pool=3]→A_3(d=17.1)  *D_4[pool=0]→A_0(d=21.4)   (*=至少一层学习  †=阵亡)
+[ep1 t= 10.8s] *T_0[pool=0]→A_0(d=8.1)  *T_1[pool=3]→A_3(d=22.5)  *T_2[pool=3]→A_3(d=8.7)  *T_3[pool=3]→A_3(d=14.9)  *T_4[pool=3]→A_3(d=13.4)  *A_0[pool=0]→T_0(d=8.1)  *A_1[pool=0]→T_0(d=10.7)  *A_2[pool=0]→T_0(d=13.7)  *A_3[pool=2]→T_2(d=8.7)  *A_4[pool=2]→T_2(d=7.2)  *D_0[pool=3]→A_3(d=23.9)  *D_1[pool=2]→A_2(d=11.4)  *D_2[pool=3]→A_3(d=11.4)  *D_3[pool=3]→A_3(d=21.6)  *D_4[pool=3]→A_3(d=19.8)   (*=至少一层学习  †=阵亡)
+[ep1 t= 12.1s] *T_0[pool=2]→A_2(d=7.4)  *T_1[pool=0]→A_0(d=13.9)  *T_2[pool=4]→A_4(d=6.4)  *T_3[pool=4]→A_4(d=11.1)  *T_4[pool=0]→A_0(d=7.7)  *A_0[pool=4]→T_4(d=7.7)  *A_1[pool=0]→T_0(d=8.9)  *A_2[pool=0]→T_0(d=7.4)  *A_3[pool=0]→T_0(d=7.9)  *A_4[pool=2]→T_2(d=6.4)  *D_0[pool=4]→A_4(d=21.2)  *D_1[pool=1]→A_1(d=10.4)  *D_2[pool=1]→A_1(d=11.9)  *D_3[pool=4]→A_4(d=18.2)  *D_4[pool=3]→A_3(d=15.9)   (*=至少一层学习  †=阵亡)
+[ep1 t= 13.4s] *T_0[pool=2]→A_2(d=7.1)  *T_1[pool=2]→A_2(d=10.2)  *T_2[pool=4]→A_4(d=3.8)  *T_3[pool=4]→A_4(d=11.0)  *T_4[pool=2]→A_2(d=5.2)  *A_0[pool=0]→T_0(d=9.1)  *A_1[pool=0]→T_0(d=9.3)  *A_2[pool=4]→T_4(d=5.2)  *A_3[pool=0]→T_0(d=8.8)  *A_4[pool=2]→T_2(d=3.8)  *D_0[pool=4]→A_4(d=20.3)  *D_1[pool=1]→A_1(d=11.2)  *D_2[pool=1]→A_1(d=10.8)  *D_3[pool=4]→A_4(d=16.7)  *D_4[pool=2]→A_2(d=14.5)   (*=至少一层学习  †=阵亡)
+[ep1 t= 14.6s] *T_0[pool=2]→A_2(d=8.0)  *T_1[pool=2]→A_2(d=4.9)  *T_2[pool=4]→A_4(d=4.5)  *T_3[pool=4]→A_4(d=12.1)  *T_4[pool=2]→A_2(d=3.0)  *A_0[pool=0]→T_0(d=8.5)  *A_1[pool=0]→T_0(d=10.5)  *A_2[pool=4]→T_4(d=3.0)  *A_3[pool=0]→T_0(d=9.7)  *A_4[pool=2]→T_2(d=4.5)  *D_0[pool=4]→A_4(d=21.0)  *D_1[pool=1]→A_1(d=13.7)  *D_2[pool=1]→A_1(d=13.0)  *D_3[pool=2]→A_2(d=16.5)  *D_4[pool=3]→A_3(d=14.9)   (*=至少一层学习  †=阵亡)
+[ep1 t= 15.8s] *T_0[pool=0]→A_0(d=7.4)  *T_1[pool=2]→A_2(d=4.7)  *T_2[pool=4]→A_4(d=5.0)  *T_3[pool=2]→A_2(d=5.5)  *T_4[pool=2]→A_2(d=9.4)  *A_0[pool=0]→T_0(d=7.4)  *A_1[pool=0]→T_0(d=10.1)  *A_2[pool=1]→T_1(d=4.7)  *A_3[pool=1]→T_1(d=5.4)  *A_4[pool=2]→T_2(d=5.0)  *D_0[pool=4]→A_4(d=23.1)  *D_1[pool=4]→A_4(d=16.0)  *D_2[pool=4]→A_4(d=14.4)  *D_3[pool=2]→A_2(d=16.7)  *D_4[pool=3]→A_3(d=16.3)   (*=至少一层学习  †=阵亡)
+[ep1 t= 17.1s] *T_0[pool=0]→A_0(d=8.8)  *T_1[pool=3]→A_3(d=3.2)  *T_2[pool=4]→A_4(d=3.6)  *T_3[pool=2]→A_2(d=5.1)  *T_4[pool=4]→A_4(d=9.8)  *A_0[pool=0]→T_0(d=8.8)  *A_1[pool=0]→T_0(d=9.8)  *A_2[pool=3]→T_3(d=5.1)  *A_3[pool=1]→T_1(d=3.2)  *A_4[pool=2]→T_2(d=3.6)  *D_0[pool=2]→A_2(d=24.6)  *D_1[pool=1]→A_1(d=14.0)  *D_2[pool=1]→A_1(d=18.2)  *D_3[pool=2]→A_2(d=17.2)  *D_4[pool=3]→A_3(d=19.4)   (*=至少一层学习  †=阵亡)
+[ep1 t= 18.4s] *T_0[pool=0]→A_0(d=10.3)  *T_1[pool=3]→A_3(d=5.9)  *T_2[pool=4]→A_4(d=2.3)  *T_3[pool=2]→A_2(d=4.6)  *T_4[pool=3]→A_3(d=8.0)  *A_0[pool=0]→T_0(d=10.3)  *A_1[pool=0]→T_0(d=11.9)  *A_2[pool=3]→T_3(d=4.6)  *A_3[pool=1]→T_1(d=5.9)  *A_4[pool=2]→T_2(d=2.3)  *D_0[pool=2]→A_2(d=25.8)  *D_1[pool=1]→A_1(d=13.0)  *D_2[pool=1]→A_1(d=19.2)  *D_3[pool=2]→A_2(d=18.5)  *D_4[pool=0]→A_0(d=17.4)   (*=至少一层学习  †=阵亡)
+[ep1 t= 19.6s] *T_0[pool=0]→A_0(d=8.3)  *T_1[pool=3]→A_3(d=6.1)  *T_2[pool=4]→A_4(d=3.2)  *T_3[pool=3]→A_3(d=1.2)  *T_4[pool=3]→A_3(d=9.4)  *A_0[pool=0]→T_0(d=8.3)  *A_1[pool=0]→T_0(d=10.1)  *A_2[pool=2]→T_2(d=5.8)  *A_3[pool=3]→T_3(d=1.2)  *A_4[pool=2]→T_2(d=3.2)  *D_0[pool=2]→A_2(d=26.9)  *D_1[pool=1]→A_1(d=14.5)  *D_2[pool=1]→A_1(d=19.5)  *D_3[pool=4]→A_4(d=20.4)  *D_4[pool=0]→A_0(d=19.4)   (*=至少一层学习  †=阵亡)
+[ep1 t= 20.9s] *T_0[pool=0]→A_0(d=7.3)  *T_1[pool=3]→A_3(d=10.6)  *T_2[pool=4]→A_4(d=3.3)  *T_3[pool=3]→A_3(d=3.3)  *T_4[pool=0]→A_0(d=10.1)  *A_0[pool=0]→T_0(d=7.3)  *A_1[pool=0]→T_0(d=7.7)  *A_2[pool=2]→T_2(d=2.9)  *A_3[pool=3]→T_3(d=3.3)  *A_4[pool=2]→T_2(d=3.3)  *D_0[pool=2]→A_2(d=28.5)  *D_1[pool=1]→A_1(d=17.0)  *D_2[pool=1]→A_1(d=18.3)  *D_3[pool=3]→A_3(d=22.4)  *D_4[pool=0]→A_0(d=22.3)   (*=至少一层学习  †=阵亡)
+[ep1 t= 22.1s] *T_0[pool=2]→A_2(d=7.8)  *T_1[pool=4]→A_4(d=10.9)  *T_2[pool=4]→A_4(d=2.1)  *T_3[pool=4]→A_4(d=6.2)  *T_4[pool=2]→A_2(d=10.9)  *A_0[pool=0]→T_0(d=9.6)  *A_1[pool=0]→T_0(d=9.8)  *A_2[pool=2]→T_2(d=7.7)  *A_3[pool=2]→T_2(d=3.0)  *A_4[pool=2]→T_2(d=2.1)  *D_0[pool=3]→A_3(d=30.2)  *D_1[pool=2]→A_2(d=16.7)  *D_2[pool=2]→A_2(d=18.8)  *D_3[pool=4]→A_4(d=23.2)  *D_4[pool=2]→A_2(d=21.3)   (*=至少一层学习  †=阵亡)
+[ep1 t= 23.4s] *T_0[pool=2]→A_2(d=4.1)  *T_1[pool=2]→A_2(d=10.4)  †T_2[pool=4]→A_4(d=52.0)  *T_3[pool=4]→A_4(d=4.3)  *T_4[pool=2]→A_2(d=5.7)  *A_0[pool=0]→T_0(d=9.6)  *A_1[pool=0]→T_0(d=10.5)  *A_2[pool=0]→T_0(d=4.1)  *A_3[pool=3]→T_3(d=15.2)  *A_4[pool=3]→T_3(d=4.3)  *D_0[pool=4]→A_4(d=32.5)  *D_1[pool=1]→A_1(d=15.7)  *D_2[pool=3]→A_3(d=19.5)  *D_3[pool=4]→A_4(d=21.2)  *D_4[pool=2]→A_2(d=18.7)   (*=至少一层学习  †=阵亡)
+Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+[TAD-HIER-play] ✔ MP4 已保存：/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-04_17-01-00_flatppo/play_eval/20261008_reviewed_8runs/video_internal/flatppo_episode_20261008_164927_episode2.mp4（598 帧, 25 fps, 1920x1080）
+[TAD-HIER][play] 回合 1：24.0s | 超时无胜负 | 累计 A胜=0/2 D胜=0/2 | reward T=-186.05 A=-1390.37 D=-6367.95
+[ep2 t=  0.0s] *T_0[pool=4]→A_4(d=2.5)  *T_1[pool=1]→A_1(d=6.9)  *T_2[pool=4]→A_4(d=3.6)  *T_3[pool=1]→A_1(d=7.2)  *T_4[pool=1]→A_1(d=7.8)  *A_0[pool=0]→T_0(d=16.8)  *A_1[pool=0]→T_0(d=3.5)  *A_2[pool=0]→T_0(d=16.1)  *A_3[pool=2]→T_2(d=12.4)  *A_4[pool=0]→T_0(d=2.5)  *D_0[pool=3]→A_3(d=13.1)  *D_1[pool=4]→A_4(d=8.9)  *D_2[pool=3]→A_3(d=4.8)  *D_3[pool=3]→A_3(d=3.8)  *D_4[pool=3]→A_3(d=12.6)   (*=至少一层学习  †=阵亡)
+[ep2 t=  1.4s] *T_0[pool=4]→A_4(d=3.8)  *T_1[pool=1]→A_1(d=9.4)  *T_2[pool=4]→A_4(d=3.8)  *T_3[pool=1]→A_1(d=11.4)  *T_4[pool=4]→A_4(d=10.9)  *A_0[pool=0]→T_0(d=19.6)  *A_1[pool=0]→T_0(d=5.7)  *A_2[pool=0]→T_0(d=20.5)  *A_3[pool=2]→T_2(d=13.4)  *A_4[pool=0]→T_0(d=3.8)  *D_0[pool=4]→A_4(d=9.6)  *D_1[pool=4]→A_4(d=10.0)  *D_2[pool=4]→A_4(d=4.2)  *D_3[pool=4]→A_4(d=2.7)  *D_4[pool=4]→A_4(d=8.4)   (*=至少一层学习  †=阵亡)
+[ep2 t=  2.7s] *T_0[pool=4]→A_4(d=10.4)  *T_1[pool=4]→A_4(d=19.2)  *T_2[pool=4]→A_4(d=9.9)  *T_3[pool=4]→A_4(d=16.8)  *T_4[pool=4]→A_4(d=16.3)  *A_0[pool=0]→T_0(d=17.7)  †A_1[pool=2]→T_2(d=54.0)  *A_2[pool=0]→T_0(d=24.8)  *A_3[pool=2]→T_2(d=12.7)  *A_4[pool=2]→T_2(d=9.9)  *D_0[pool=4]→A_4(d=7.8)  *D_1[pool=4]→A_4(d=16.2)  *D_2[pool=4]→A_4(d=13.8)  *D_3[pool=4]→A_4(d=13.0)  *D_4[pool=4]→A_4(d=9.2)   (*=至少一层学习  †=阵亡)
+[ep2 t=  4.0s] *T_0[pool=3]→A_3(d=12.8)  *T_1[pool=3]→A_3(d=23.0)  *T_2[pool=4]→A_4(d=16.6)  *T_3[pool=4]→A_4(d=21.1)  *T_4[pool=4]→A_4(d=20.2)  *A_0[pool=0]→T_0(d=17.4)  †A_1[pool=2]→T_2(d=54.3)  *A_2[pool=0]→T_0(d=28.4)  *A_3[pool=0]→T_0(d=12.8)  *A_4[pool=2]→T_2(d=16.6)  *D_0[pool=4]→A_4(d=13.6)  *D_1[pool=4]→A_4(d=19.7)  *D_2[pool=3]→A_3(d=12.7)  *D_3[pool=3]→A_3(d=12.6)  *D_4[pool=4]→A_4(d=15.0)   (*=至少一层学习  †=阵亡)
+[ep2 t=  5.3s] *T_0[pool=3]→A_3(d=10.6)  *T_1[pool=3]→A_3(d=21.2)  *T_2[pool=3]→A_3(d=11.3)  *T_3[pool=3]→A_3(d=23.0)  *T_4[pool=3]→A_3(d=22.8)  *A_0[pool=0]→T_0(d=15.0)  †A_1[pool=2]→T_2(d=54.5)  *A_2[pool=0]→T_0(d=25.1)  *A_3[pool=0]→T_0(d=10.6)  *A_4[pool=2]→T_2(d=22.1)  *D_0[pool=3]→A_3(d=10.3)  *D_1[pool=3]→A_3(d=14.4)  *D_2[pool=3]→A_3(d=11.0)  *D_3[pool=3]→A_3(d=9.7)  *D_4[pool=3]→A_3(d=11.9)   (*=至少一层学习  †=阵亡)
+[ep2 t=  6.6s] *T_0[pool=3]→A_3(d=12.5)  *T_1[pool=3]→A_3(d=22.6)  *T_2[pool=3]→A_3(d=13.7)  *T_3[pool=4]→A_4(d=17.1)  *T_4[pool=4]→A_4(d=15.9)  *A_0[pool=0]→T_0(d=15.4)  †A_1[pool=2]→T_2(d=53.7)  *A_2[pool=0]→T_0(d=23.3)  *A_3[pool=0]→T_0(d=12.5)  *A_4[pool=4]→T_4(d=15.9)  *D_0[pool=3]→A_3(d=15.4)  *D_1[pool=3]→A_3(d=17.9)  *D_2[pool=3]→A_3(d=12.7)  *D_3[pool=3]→A_3(d=11.4)  *D_4[pool=3]→A_3(d=16.8)   (*=至少一层学习  †=阵亡)
+[ep2 t=  7.9s] *T_0[pool=3]→A_3(d=12.4)  *T_1[pool=4]→A_4(d=15.6)  *T_2[pool=3]→A_3(d=13.3)  *T_3[pool=4]→A_4(d=10.6)  *T_4[pool=4]→A_4(d=10.7)  *A_0[pool=0]→T_0(d=16.2)  †A_1[pool=2]→T_2(d=54.3)  *A_2[pool=0]→T_0(d=20.8)  *A_3[pool=0]→T_0(d=12.4)  *A_4[pool=4]→T_4(d=10.7)  *D_0[pool=4]→A_4(d=13.2)  *D_1[pool=4]→A_4(d=7.8)  *D_2[pool=3]→A_3(d=15.2)  *D_3[pool=3]→A_3(d=14.7)  *D_4[pool=4]→A_4(d=13.6)   (*=至少一层学习  †=阵亡)
+[ep2 t=  9.2s] *T_0[pool=3]→A_3(d=11.2)  *T_1[pool=4]→A_4(d=10.7)  *T_2[pool=3]→A_3(d=12.6)  *T_3[pool=4]→A_4(d=8.2)  *T_4[pool=4]→A_4(d=7.2)  *A_0[pool=0]→T_0(d=14.1)  †A_1[pool=4]→T_4(d=52.9)  *A_2[pool=0]→T_0(d=17.6)  *A_3[pool=0]→T_0(d=11.2)  *A_4[pool=4]→T_4(d=7.2)  *D_0[pool=3]→A_3(d=13.1)  *D_1[pool=4]→A_4(d=11.4)  *D_2[pool=0]→A_0(d=13.4)  *D_3[pool=0]→A_0(d=13.1)  *D_4[pool=3]→A_3(d=16.1)   (*=至少一层学习  †=阵亡)
+[ep2 t= 10.4s] *T_0[pool=3]→A_3(d=12.8)  *T_1[pool=4]→A_4(d=13.1)  *T_2[pool=3]→A_3(d=14.9)  *T_3[pool=4]→A_4(d=6.1)  *T_4[pool=4]→A_4(d=5.6)  *A_0[pool=0]→T_0(d=14.1)  †A_1[pool=4]→T_4(d=52.6)  *A_2[pool=0]→T_0(d=19.6)  *A_3[pool=0]→T_0(d=12.8)  *A_4[pool=4]→T_4(d=5.6)  *D_0[pool=3]→A_3(d=10.9)  *D_1[pool=4]→A_4(d=15.5)  *D_2[pool=3]→A_3(d=13.7)  *D_3[pool=0]→A_0(d=13.0)  *D_4[pool=3]→A_3(d=13.6)   (*=至少一层学习  †=阵亡)
+[ep2 t= 11.7s] *T_0[pool=3]→A_3(d=14.0)  *T_1[pool=4]→A_4(d=10.0)  *T_2[pool=4]→A_4(d=12.6)  *T_3[pool=4]→A_4(d=3.9)  *T_4[pool=4]→A_4(d=1.7)  *A_0[pool=0]→T_0(d=16.4)  †A_1[pool=3]→T_3(d=51.0)  *A_2[pool=0]→T_0(d=20.3)  *A_3[pool=0]→T_0(d=14.0)  *A_4[pool=3]→T_3(d=3.9)  *D_0[pool=3]→A_3(d=14.5)  *D_1[pool=4]→A_4(d=16.3)  *D_2[pool=3]→A_3(d=14.0)  *D_3[pool=3]→A_3(d=12.3)  *D_4[pool=3]→A_3(d=16.2)   (*=至少一层学习  †=阵亡)
+[ep2 t= 13.0s] *T_0[pool=3]→A_3(d=11.6)  *T_1[pool=4]→A_4(d=4.3)  *T_2[pool=4]→A_4(d=12.9)  *T_3[pool=4]→A_4(d=4.9)  *T_4[pool=4]→A_4(d=8.2)  *A_0[pool=0]→T_0(d=15.4)  †A_1[pool=3]→T_3(d=50.8)  *A_2[pool=0]→T_0(d=17.6)  *A_3[pool=0]→T_0(d=11.6)  *A_4[pool=4]→T_4(d=8.2)  *D_0[pool=3]→A_3(d=17.5)  *D_1[pool=4]→A_4(d=18.5)  *D_2[pool=3]→A_3(d=16.4)  *D_3[pool=3]→A_3(d=15.3)  *D_4[pool=3]→A_3(d=19.6)   (*=至少一层学习  †=阵亡)
+[ep2 t= 14.3s] *T_0[pool=3]→A_3(d=11.0)  *T_1[pool=4]→A_4(d=4.6)  *T_2[pool=4]→A_4(d=6.4)  *T_3[pool=4]→A_4(d=8.6)  *T_4[pool=4]→A_4(d=11.0)  *A_0[pool=0]→T_0(d=12.7)  †A_1[pool=4]→T_4(d=50.7)  *A_2[pool=0]→T_0(d=17.9)  *A_3[pool=0]→T_0(d=11.0)  *A_4[pool=1]→T_1(d=4.6)  *D_0[pool=4]→A_4(d=14.9)  *D_1[pool=4]→A_4(d=20.5)  *D_2[pool=0]→A_0(d=16.1)  *D_3[pool=0]→A_0(d=16.2)  *D_4[pool=4]→A_4(d=16.2)   (*=至少一层学习  †=阵亡)
+[ep2 t= 15.5s] *T_0[pool=4]→A_4(d=4.3)  *T_1[pool=4]→A_4(d=8.0)  *T_2[pool=4]→A_4(d=2.4)  *T_3[pool=4]→A_4(d=13.0)  *T_4[pool=4]→A_4(d=11.0)  *A_0[pool=0]→T_0(d=13.7)  †A_1[pool=4]→T_4(d=50.4)  *A_2[pool=0]→T_0(d=20.1)  *A_3[pool=0]→T_0(d=13.4)  *A_4[pool=2]→T_2(d=2.4)  *D_0[pool=3]→A_3(d=13.3)  *D_1[pool=4]→A_4(d=22.9)  *D_2[pool=0]→A_0(d=15.1)  *D_3[pool=0]→A_0(d=13.3)  *D_4[pool=4]→A_4(d=16.7)   (*=至少一层学习  †=阵亡)
+[ep2 t= 16.8s] *T_0[pool=4]→A_4(d=5.2)  *T_1[pool=4]→A_4(d=10.4)  *T_2[pool=4]→A_4(d=3.4)  *T_3[pool=4]→A_4(d=12.0)  *T_4[pool=4]→A_4(d=11.6)  *A_0[pool=0]→T_0(d=11.2)  †A_1[pool=4]→T_4(d=50.5)  *A_2[pool=0]→T_0(d=18.6)  *A_3[pool=0]→T_0(d=12.2)  *A_4[pool=2]→T_2(d=3.4)  *D_0[pool=3]→A_3(d=14.4)  *D_1[pool=4]→A_4(d=23.4)  *D_2[pool=0]→A_0(d=15.8)  *D_3[pool=0]→A_0(d=13.9)  *D_4[pool=3]→A_3(d=16.6)   (*=至少一层学习  †=阵亡)
+[ep2 t= 18.1s] *T_0[pool=4]→A_4(d=6.2)  *T_1[pool=4]→A_4(d=8.9)  *T_2[pool=4]→A_4(d=2.5)  *T_3[pool=4]→A_4(d=13.3)  *T_4[pool=4]→A_4(d=10.5)  *A_0[pool=0]→T_0(d=8.6)  †A_1[pool=4]→T_4(d=50.4)  *A_2[pool=0]→T_0(d=17.6)  *A_3[pool=0]→T_0(d=10.7)  *A_4[pool=2]→T_2(d=2.5)  *D_0[pool=0]→A_0(d=14.8)  *D_1[pool=4]→A_4(d=21.4)  *D_2[pool=0]→A_0(d=16.7)  *D_3[pool=0]→A_0(d=14.8)  *D_4[pool=0]→A_0(d=17.1)   (*=至少一层学习  †=阵亡)
+[ep2 t= 19.3s] *T_0[pool=4]→A_4(d=4.3)  *T_1[pool=4]→A_4(d=7.8)  *T_2[pool=4]→A_4(d=1.9)  *T_3[pool=4]→A_4(d=11.4)  *T_4[pool=4]→A_4(d=11.6)  *A_0[pool=4]→T_4(d=11.3)  †A_1[pool=4]→T_4(d=50.5)  *A_2[pool=0]→T_0(d=20.2)  *A_3[pool=0]→T_0(d=13.0)  *A_4[pool=2]→T_2(d=1.9)  *D_0[pool=0]→A_0(d=14.4)  *D_1[pool=4]→A_4(d=21.3)  *D_2[pool=4]→A_4(d=19.2)  *D_3[pool=4]→A_4(d=16.4)  *D_4[pool=0]→A_0(d=17.2)   (*=至少一层学习  †=阵亡)
+[ep2 t= 20.3s] *T_0[pool=4]→A_4(d=2.4)  *T_1[pool=4]→A_4(d=9.9)  *T_2[pool=4]→A_4(d=2.4)  *T_3[pool=4]→A_4(d=12.7)  *T_4[pool=0]→A_0(d=5.2)  *A_0[pool=4]→T_4(d=5.2)  †A_1[pool=4]→T_4(d=50.4)  *A_2[pool=0]→T_0(d=20.4)  *A_3[pool=0]→T_0(d=13.6)  *A_4[pool=2]→T_2(d=2.4)  *D_0[pool=4]→A_4(d=15.5)  *D_1[pool=0]→A_0(d=21.4)  *D_2[pool=3]→A_3(d=19.3)  *D_3[pool=4]→A_4(d=18.8)  *D_4[pool=4]→A_4(d=17.5)   (*=至少一层学习  †=阵亡)
+[ep2 t= 21.5s] *T_0[pool=4]→A_4(d=4.1)  *T_1[pool=4]→A_4(d=10.2)  *T_2[pool=4]→A_4(d=1.9)  *T_3[pool=0]→A_0(d=3.2)  †T_4[pool=0]→A_0(d=50.7)  *A_0[pool=3]→T_3(d=3.2)  †A_1[pool=3]→T_3(d=51.0)  *A_2[pool=0]→T_0(d=18.3)  *A_3[pool=0]→T_0(d=11.9)  *A_4[pool=2]→T_2(d=1.9)  *D_0[pool=3]→A_3(d=15.3)  *D_1[pool=0]→A_0(d=22.7)  *D_2[pool=3]→A_3(d=18.4)  *D_3[pool=3]→A_3(d=17.1)  *D_4[pool=3]→A_3(d=18.1)   (*=至少一层学习  †=阵亡)
+[ep2 t= 22.8s] *T_0[pool=4]→A_4(d=4.6)  *T_1[pool=0]→A_0(d=4.3)  *T_2[pool=4]→A_4(d=3.3)  *T_3[pool=0]→A_0(d=4.6)  †T_4[pool=0]→A_0(d=51.7)  *A_0[pool=3]→T_3(d=4.6)  †A_1[pool=2]→T_2(d=50.9)  *A_2[pool=0]→T_0(d=18.0)  *A_3[pool=0]→T_0(d=11.1)  *A_4[pool=2]→T_2(d=3.3)  *D_0[pool=3]→A_3(d=17.7)  *D_1[pool=0]→A_0(d=24.8)  *D_2[pool=3]→A_3(d=18.8)  *D_3[pool=3]→A_3(d=17.0)  *D_4[pool=3]→A_3(d=19.9)   (*=至少一层学习  †=阵亡)
+[ep2 t= 24.0s] *T_0[pool=4]→A_4(d=3.2)  †T_1[pool=4]→A_4(d=51.2)  *T_2[pool=4]→A_4(d=5.1)  *T_3[pool=4]→A_4(d=10.5)  †T_4[pool=4]→A_4(d=51.2)  *A_0[pool=3]→T_3(d=11.2)  †A_1[pool=2]→T_2(d=50.8)  *A_2[pool=0]→T_0(d=19.9)  *A_3[pool=0]→T_0(d=12.9)  *A_4[pool=2]→T_2(d=5.1)  *D_0[pool=3]→A_3(d=20.5)  *D_1[pool=0]→A_0(d=26.6)  *D_2[pool=3]→A_3(d=20.5)  *D_3[pool=3]→A_3(d=19.1)  *D_4[pool=3]→A_3(d=22.7)   (*=至少一层学习  †=阵亡)
+Multiple -pix_fmt options specified for stream 0, only the last option '-pix_fmt yuv420p' will be used.
+[TAD-HIER-play] ✔ MP4 已保存：/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-04_17-01-00_flatppo/play_eval/20261008_reviewed_8runs/video_internal/flatppo_episode_20261008_164927_episode3.mp4（613 帧, 25 fps, 1920x1080）
+[TAD-HIER][play] 前 3 局录像已保存。
+[TAD-HIER][play] 回合 2：24.6s | 超时无胜负 | 累计 A胜=0/3 D胜=0/3 | reward T=-124.31 A=-1088.58 D=-5578.30
+
+[TAD-HIER][play] ===== 全局统计（num_envs=1）=====
+[TAD-HIER][play] 回合总数: 3 | A胜 0 (0.0%) | D胜 0 (0.0%) | T撑到超时 3 (100.0%)
+[TAD-HIER][play] 近3回合平均奖励 T: -242.97
+[TAD-HIER][play] 近3回合平均奖励 A: -1306.91
+[TAD-HIER][play] 近3回合平均奖励 D: -6693.72
+wandb: updating run metadata
+wandb: uploading output.log; uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 6597-6597, summary, console lines 65-73
+wandb: 
+wandb: Run history:
+wandb:         play/A_0/action_0 ██▂▂▁▁▁▁▁▆▅▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁██▇▇▇▇▇▇
+wandb:         play/A_0/action_1 ▂▂▂▁▂▃███▂▂▁▁▂▅▃▄▅▄▃▆█▃▄▄▄▃▃▃▃▃▃▁▂▂▂▂▂▂▃
+wandb:         play/A_0/action_2 █████▁▁▁▁▁▁▁▂▂████▃▂▄▄▅▅▅▅▅▂▆▄▅▅▅██▇███▇
+wandb:         play/A_0/action_3 ▂▁▁▆▄▅▇▇▇▇▇▇▇▇▃▂▁▁▁▂▆▄▅█▇▇▇▇▅▇▃▇▇▇▇▄▅▃▃▄
+wandb:        play/A_0/ang_speed █▂▇█▁▁▁▁▁▁▁▁▇▂█▅▅▇▁▁▁▁▁▁▁▆▆▁▁▁▁▁▁▅▅▇▃▆▅▇
+wandb:        play/A_0/ang_vel_x ▁▁▂▇▇▇▇▇▇▇▇▇▅▂▇▇▇▇▇▇▇▇▇▇▇▄▅▇▇▇▇▇▇▇▇█▁▁▁▆
+wandb:        play/A_0/ang_vel_y ▂▂▂▇▂▂▂▂▂▂▂▂▂▇▂▂▂▁▇▃▃▂▃▃▃▇▇▁▂▂▂▂▆▇▇▂██▇▆
+wandb:        play/A_0/ang_vel_z ▇▇▂▁▂▂▂▂▂▂▂▂▁▂▇▁▁▆▃▂▂▂▂▂▂███▃▇▂▂▄▁▁▇▃▁▇▂
+wandb: play/A_0/dec/alive_before ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:     play/A_0/dec/boundary ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁
+wandb:                      +495 ...
+wandb: 
+wandb: Run summary:
+wandb: Control / action_saturation 0.47414
+wandb:          Control / dist_A_T 5.58285
+wandb:          Control / dist_D_A 12.15169
+wandb:          Control / oob_rate 0.41916
+wandb:  Curriculum/expert_env_frac 0.07552
+wandb:        Episode/attacker_win 0.24294
+wandb:    Episode/cum_attacker_win 0.20821
+wandb:    Episode/cum_defender_win 0.07226
+wandb:         Episode/cum_timeout 0.71953
+wandb:        Episode/defender_win 0.03107
+wandb:                        +559 ...
+wandb: 
+wandb: 🚀 View run 2026-10-04_17-01-00_flatppo at: https://wandb.ai/1026066086-zqc/MTAD-Hierarchical/runs/2026-10-04_17-01-00_flatppo
+wandb: ⭐️ View project at: https://wandb.ai/1026066086-zqc/MTAD-Hierarchical
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./logs/wandb/run-20261008_164934-2026-10-04_17-01-00_flatppo/logs

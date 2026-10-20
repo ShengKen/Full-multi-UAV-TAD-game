@@ -1,0 +1,61 @@
+{
+  "repository": "ShengKen/Full-multi-UAV-TAD-game",
+  "ref": "main",
+  "clip_seconds": 12,
+  "featured_videos": [
+    {
+      "name": "2026-10-12_08-40-47_matd3ppo",
+      "video": "play/matd3ppo_episode1_20261013_191143.mp4",
+      "clip_seconds": 30
+    },
+    {
+      "name": "2026-10-06_21-27-48_matd3ppo",
+      "video": "play_eval/20261015_205254_missing_scenario_videos_1env_3ep/video_internal/matd3ppo_episode_20261015_214930_episode3.mp4",
+      "preview_id": "2026-10-06_21-27-48_matd3ppo-20261015-episode3"
+    },
+    {
+      "name": "2026-10-05_10-38-27_matd3ppo",
+      "video": "play_eval/agent_300000/internal/video/matd3ppo_ep_20261006_133330_episode2.mp4"
+    },
+    {
+      "name": "2026-10-02_15-21-30_matd3ppo",
+      "video": "play_eval/agent_300000/internal/video/matd3ppo_ep_20261006_125207_episode2.mp4"
+    }
+  ],
+  "runs": [
+    {
+      "name": "2026-10-05_13-30-51_flattd3",
+      "checkpoint_step": 300000,
+      "video": "play_eval/20261008_reviewed_8runs/video_internal/flattd3_episode_20261008_162526.mp4"
+    },
+    {
+      "name": "2026-10-05_10-38-27_matd3ppo",
+      "checkpoint_step": 300000,
+      "video": "play_eval/agent_300000/internal/video/matd3ppo_ep_20261006_133330_episode2.mp4"
+    },
+    {
+      "name": "2026-10-04_17-01-00_flatppo",
+      "checkpoint_step": 300000,
+      "video": "play_eval/20261008_reviewed_8runs/video_internal/flatppo_episode_20261008_164927.mp4"
+    },
+    {
+      "name": "2026-10-04_16-48-12_flatppo",
+      "checkpoint_step": 300000,
+      "video": "play_eval/20261008_reviewed_8runs/video_internal/flatppo_episode_20261008_161005.mp4"
+    },
+    {
+      "name": "2026-10-03_09-10-20_flattd3",
+      "checkpoint_step": 300000,
+      "video": "play_eval/20261008_reviewed_8runs/video_internal/flattd3_episode_20261008_155840.mp4"
+    },
+    {
+      "name": "2026-10-03_08-49-37_matd3ppo",
+      "checkpoint_step": 300000,
+      "video": "play_eval/20261008_reviewed_8runs/video_internal/matd3ppo_episode_20261008_155254.mp4"
+    },
+    {
+      "name": "2026-10-06_21-27-48_matd3ppo",
+      "video": "play_eval/20261015_205254_missing_scenario_videos_1env_3ep/video_internal/matd3ppo_episode_20261015_214930_episode3.mp4"
+    }
+  ]
+}

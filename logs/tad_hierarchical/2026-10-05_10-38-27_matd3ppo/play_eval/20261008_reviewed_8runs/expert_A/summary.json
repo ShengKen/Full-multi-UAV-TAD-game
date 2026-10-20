@@ -1,0 +1,21 @@
+{
+  "group": "expert_A",
+  "num_envs": 64,
+  "model_sides": [
+    "A"
+  ],
+  "checkpoint": "/workspace/Isaac_Project/MTAD/logs/tad_hierarchical/2026-10-05_10-38-27_matd3ppo/26-10-05_10-38-36-562081_MATD3PPO/checkpoints/agent_300000.pt",
+  "offset": 1240000,
+  "end": 1246966,
+  "steps": 6966,
+  "episodes": 1000,
+  "env0_episodes": 16,
+  "wins": {
+    "A": 963,
+    "D": 32,
+    "T": 5
+  },
+  "stop_reason": "eval_episodes",
+  "wandb_active": true,
+  "elapsed_s": 877.7204782962799
+}
